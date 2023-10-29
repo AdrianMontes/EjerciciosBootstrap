@@ -1,0 +1,12 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@include media-breakpoint-between(xs, md) {
+    body {
+        background-color: violet;
+    }
+}
+
+@include media-breakpoint-between(lg, xxl) {
+    body {
+        background-color: green;
+    }
+}

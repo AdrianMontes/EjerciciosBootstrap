@@ -1,0 +1,11 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+.bg-warning, .bg-danger, .bg-secondary {
+    border: 5px solid black;
+}
+.bg-info {
+    border: 5px solid red;
+}
+.bg-primary {
+    border: 5px solid yellow;
+}
