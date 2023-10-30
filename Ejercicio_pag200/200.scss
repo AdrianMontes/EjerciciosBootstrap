@@ -1,0 +1,96 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#cabecera {
+    color: white;
+}
+
+
+
+@include media-breakpoint-up(xl) {
+    #cuerpo {
+        display: flex;
+
+        .cuadro {
+            width: 580px;
+            margin-bottom: 30px;
+    
+            img {
+                width: 280px;
+                height: 100px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                width: 170px;
+                height: 40px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(sm) {
+    #cuerpo {
+        display: flex;
+        justify-content: center;
+
+        .cuadro {
+            width: 280px;
+            margin-bottom: 30px;
+    
+            img {
+                width: 200px;
+                height: 100px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                width: 170px;
+                height: 40px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+            }
+        }
+    }
+}
+
+@include media-breakpoint-up(xs) {
+    #cuerpo {
+        display: flex;
+        justify-content: center;
+
+        .cuadro {
+            width: 280px;
+            margin-bottom: 30px;
+    
+            img {
+                width: 280px;
+                height: 100px;
+            }
+            div {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+                width: 170px;
+                height: 40px;
+                border-radius: 3px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                -ms-border-radius: 3px;
+                -o-border-radius: 3px;
+            }
+        }
+    }
+}
