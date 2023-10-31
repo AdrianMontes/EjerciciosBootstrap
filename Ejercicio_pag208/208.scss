@@ -1,0 +1,86 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+#encabezado {
+    #logo {
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        color: #38B2AC;
+    }
+
+    #input {
+        color: lightgray;
+    }
+    
+    #login {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 40px;
+        background-color: black;
+    }
+
+    height: 60px;
+    box-shadow: 0 5px 10px lightgray;
+}
+
+.habitacion {
+    height: 550px;
+
+    .imagen {
+        min-height: 200px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .alena, .maiya {
+        background-image: url(images/alena.webp);
+    }
+
+    .stephon {
+        background-image: url(images/stephon.webp);
+    }
+
+    .leuschke, .witting, .yvette, .garett {
+        background-image: url(images/leuschke.webp);
+    }
+
+    .delia {
+        background-image: url(images/delia.webp);
+    }
+
+    .carter, .iva {
+        background-image: url(images/carter.webp);
+    }
+
+    .vergie {
+        background-image: url(images/vergie.webp);
+    }
+
+    .hoeger {
+        background-image: url(images/hoeger.webp);
+    }
+
+    .leannon, .nolan {
+        background-image: url(images/leannon.webp);
+    }
+
+    box-shadow: 0 5px 10px lightgray;
+}
+
+.d-flex div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: rgba(128, 128, 128, 0.5);
+    height: 40px;
+}
+
+.d-flex .calificacion {
+    width: 90px;
+}
+
+.d-flex .favorito {
+    width: 40px;
+}
