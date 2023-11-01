@@ -1,0 +1,33 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+div {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde {
+    background-color: limegreen;
+    min-height: 35px;
+}
+
+.azul {
+    background-color: #87aade;
+    min-height: 50px;
+}
+
+.gris {
+    background-color: #cccccc;
+    min-height: 50px;
+}
+
+.cyan {
+    background-color: cyan;
+    min-height: 35px;
+}
+
+.marron {
+    background-color: #ff9955;
+    min-height: 50px;
+}

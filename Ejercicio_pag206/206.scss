@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+.row {
+}
+
+.verde {
+    background-color: lime;
+    min-height: 30px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.rojo {
+    background-color: red;
+    min-height: 30px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.purpura {
+    background-color: #ff00ff;
+    min-height: 20px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.beige {
+    background-color: #ff9955;
+    min-height: 60px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
+
+.azul {
+    background-color: blue;
+    min-height: 40px;
+    border: 1px solid black;
+    margin-bottom: 3px;
+}
